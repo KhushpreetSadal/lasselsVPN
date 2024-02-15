@@ -6,21 +6,27 @@
    
     
 }
+
+/* #Navbar css */
+.btns{
+    width: 35%;
+}
+
 #btn1{
     border:none;
     border-radius: 44px;
-    padding: 0.5vw 2.5vw;
     font-weight: 550;
     background-color: #ffffff;
+    width: max-content;
+    padding: 0.7vw 1rem;
 }
 #btn2{
     border: 1.5px solid #f53838;
     border-radius: 44px;
-    padding: .7rem 3rem;
     font-weight: 550;
     color: #f53838;
     background-color: #ffffff;
-    
+    padding: 0.5vw 1rem;
 
 }
 #btn2:hover{
@@ -35,12 +41,17 @@
 .nav-link:hover{
     color: #f53838;
 }
+
+
+/* #Home section */
+#content{
+    flex-wrap: wrap;
+}
 #home h1{
     font-size: 3rem;
 }
-#home .img{
-    width: 50%;
-}
+
+
 #home .button{
     background-color: #f53838;
     border: none;

@@ -13,12 +13,15 @@
 <body>
     <header >
         <nav class="navbar navbar-expand-lg d-flex justify-content-center">
-            <div class="container d-flex justify-content-between ">
+            <div class="container d-flex justify-content-between w-100 ">
               <div class="logo">
               <a class="navbar-brand" href="#"><img src="logo.svg" alt="" srcset=""></a>
               </div>
-            
-                <ul class="navbar-nav ">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse w-100 " id="navbarSupportedContent">
+                <ul class="navbar-nav w-100 d-flex justify-content-center ">
                   <li class="nav-item m-3">
                     <a class="nav-link" href="#">About</a>
                   </li>
@@ -36,26 +39,57 @@
                   </li>
             
                 </ul>
-
-                <div class="btns">
-                  <button id="btn1" >Sign In</button>
-                  <button id="btn2" >Sign Up</button>
+                <div class="btns d-flex justify-content-end">
+                  <button id="btn1" class="w-50" >Sign In</button>
+                  <button id="btn2" class="w-50">Sign Up</button>
                 </div>
+              </div>
               </div>
             </div>
           </nav>
     </header>
     <main>
-      <section id="home" class="container d-flex justify-content-center align-content-center">
-        <div class="content d-flex flex-column justify-content-center mt-3 w-50">
-        <h1>Want anything to be 
-          easy with <span class="fw-bold">LaslesVPN</span>.</h1>
+      <section  >
+        <div id="home" class="container d-flex  mt-4 w-100">
+        <div  class="d-flex flex-column justify-content-center mt-3 w-100">
+        <h1>Want anything to be easy with <span class="fw-bold">LaslesVPN</span>.</h1>
           <p class="mt-4">Provide a network for all your needs with ease and fun using <span class="fw-bold">LaslesVPN</span> discover interesting features from us.</p>
           <button class="button mt-4 ">Get Started</button>
         </div>
-        <div class="img w-50">
+        <div class="w-100 ">
           <img class="w-100" src="illustration-1.svg" alt="">
         </div>
+        </div>
+
+        <div class="container d-flex w-100 justify-content-evenly mx-5">
+          <div class="d-flex justify-content-center align-content-center">
+            <img src="location-icon.svg" alt="">
+            <div class="text">
+              <h3>30+</h3>
+              <p class="m-0">Locations</p>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center align-content-center">
+            <img src="server-icon.svg" alt="">
+            <div class="text">
+              <h3>50+</h3>
+              <p class="m-0">Servers</p>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center align-content-center">
+            <img src="user-icon.svg" alt="">
+            <div class="text">
+              <h3>90+</h3>
+              <p class="m-0">Users</p>
+            </div>
+          </div>
+          
+        </div>
+
+
+
       </section>
     </main>
     
