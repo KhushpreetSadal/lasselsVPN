@@ -50,6 +50,10 @@
 #home h1{
     font-size: 3rem;
 }
+#home p{
+        font-size: 1.1rem;
+        color: #76787a;
+}
 
 
 #home .button{
@@ -68,4 +72,50 @@
     background-color: #2e3033;
     box-shadow: #2e3033 17px 13px 36px -12px;
  
+}
+
+#homepage .contents{
+    box-shadow: #afafaf 0px 1px 100px -29px;
+    padding: .9rem ;
+    border-radius: 10px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#homepage .contents .text{
+    margin-left: 2rem;
+    padding-right: 8rem;
+    border-right: #d3cdcd 2px solid;
+}
+#homepage .contents .adjust{
+    margin-left: 2rem;
+}
+#homepage .contents h4{
+    text-align: end;
+    margin-bottom: 0px;
+
+}
+#homepage .contents p{
+
+    font-size: 1.3rem;
+    color: #76787a;
+}
+
+#about p{
+    font-size: 1.1rem;
+    color: #76787a;
+}
+#about .contents{
+    margin-left: 5rem;
+}
+#about .contents ul{
+    list-style-image: url(check-icon.svg);
+    
+}
+#about .contents ul image{
+    margin-top: 1vw;
+}
+
+#about .contents ul li{
+    
 }
