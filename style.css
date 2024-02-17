@@ -87,6 +87,9 @@
     padding-right: 8rem;
     border-right: #d3cdcd 2px solid;
 }
+
+
+
 #homepage .contents .adjust{
     margin-left: 2rem;
 }
@@ -101,6 +104,8 @@
     color: #76787a;
 }
 
+/* # About us page */
+
 #about p{
     font-size: 1.1rem;
     color: #76787a;
@@ -109,13 +114,16 @@
     margin-left: 5rem;
 }
 #about .contents ul{
-    list-style-image: url(check-icon.svg);
+    list-style: none;
+    margin-left: 0px;
+    padding: 0%;
+    line-height:3rem;
     
-}
-#about .contents ul image{
-    margin-top: 1vw;
-}
 
+}
 #about .contents ul li{
-    
+    color: #76787a;
+}
+#about .contents ul img{
+    margin-right: .5rem;
 }
