@@ -154,9 +154,14 @@ margin-left: 0px;
 padding-left: 0px;
 
 }
+
+#pricing ul li{
+    margin:.5rem;
+}
+
 #pricing  ul img{
-    margin-right: .5rem;
-    width: 1.5rem;
+    margin-right:2rem;
+    width: 1rem;
 }
 
 #pricing .button{
@@ -177,10 +182,10 @@ padding-left: 0px;
 }
 
 #pricing .margin1{
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 #pricing .margin2{
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     margin-bottom: 0rem;
 }
 
