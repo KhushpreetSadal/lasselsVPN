@@ -12,11 +12,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" media="screen and (max-width: 991px)" href="phone.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg d-flex justify-content-center">
+    <nav class="navbar navbar-expand-lg d-flex justify-content-center p-3">
       <div class="container d-flex justify-content-between w-100 ">
         <div class="logo">
           <a class="navbar-brand" href="#"><img src="logo.svg" alt="" srcset=""></a>
@@ -55,20 +56,21 @@
   </header>
   <main>
     <section id="homepage">
-      <div id="home" class="container d-flex  mt-4 w-100">
-        <div class="d-flex flex-column justify-content-center mt-3 w-50">
+      <div id="home" class="container mt-4 w-100 d-flex">
+        <div class="d-flex flex-column justify-content-center mt-3 mb-5 width ">
           <h1>Want anything to be easy with <span class="fw-bold">LaslesVPN</span>.</h1>
           <p class="mt-4">Provide a network for all your needs with ease and fun using <span
               class="fw-bold">LaslesVPN</span> discover interesting features from us.</p>
           <button class="button mt-4 ">Get Started</button>
         </div>
-        <div class="w-50 ">
-          <img class="w-100" src="illustration-1.svg" alt="">
+        <div class="img ">
+          <img class="w-100 h-100 mb-5" src="illustration-1.svg" alt="">
         </div>
       </div>
 
-      <div class="container d-flex w-100 justify-content-evenly contents">
-        <div class="d-flex justify-content-center align-content-center">
+      <div class="container d-flex justify-content-evenly contents">
+
+        <div class="d-flex image">
           <img src="location-icon.svg" alt="">
           <div class="text">
             <h4>30+</h4>
@@ -76,7 +78,7 @@
           </div>
         </div>
 
-        <div class="d-flex justify-content-center align-content-center">
+        <div class="d-flex image">
           <img src="server-icon.svg" alt="">
           <div class="text">
             <h4>50+</h4>
@@ -84,7 +86,7 @@
           </div>
         </div>
 
-        <div class="d-flex justify-content-center align-content-center">
+        <div class="d-flex image">
           <img src="user-icon.svg" alt="">
           <div class="adjust">
             <h4>90+</h4>
@@ -95,13 +97,13 @@
     </section>
 
     <section id="aboutpage">
-      <div id="about" class="container d-flex  mt-4 w-100">
+      <div id="about" class="container mt-4 w-100 justify-content-center align-content-center d-flex">
 
-        <div class="w-100 ">
-          <img class="w-100" src="illustration-2.svg" alt="">
+        <div class="w-100 mt-5 mb-5">
+          <img class="w-100 h-100" src="illustration-2.svg" alt="">
         </div>
 
-        <div class="d-flex flex-column justify-content-center contents">
+        <div class="d-flex flex-column justify-content-center contents mt-5 mb-5">
           <h1 class="fw-bold">We Provide Many Features You Can Use</h1>
           <p class="mt-4">You can explore the features that we provide with fun and have their own functions each
             feature.</p>
@@ -117,14 +119,14 @@
     </section>
 
     <section id="pricingpage">
-      <div id="about" class="container ">
+      <div id="pricing" class="container ">
         <h1 class="text-center pricing-table-title">Choose Your Plan</h1>
         <h5 class="text-center pricing-table-subtitle mb-5 pb-5">Let's choose the package that is best for you and explore it
           happily and cheerfully.</h5>
       
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card pricing-card pricing-plan-basic">
+        <div class="row column">
+          <div class="col-md-4 section">
+            <div class="card pricing-card pricing-plan-basic mt-3">
               <div class="card-body">
                 <div class="d-flex justify-content-center w-100 mt-5">
                   <img src="free-plan.svg" alt="">
@@ -132,10 +134,10 @@
                 <h4 class="pricing-plan-cost ml-auto text-center m-5 ">Free Plan</h4>
                 <div class="d-flex justify-content-center w-100 align-content-center">
                 <ul class="pricing-plan-features">
-                  <li> <img class="m-2" src="check-icon.svg" alt="">Unlimited Bandwitch</li>
-                  <li> <img class="m-2" src="check-icon.svg" alt="">Encrypted Connection</li>
-                  <li> <img class="m-2" src="check-icon.svg"  alt="">No Traffic Logs</li>
-                  <li> <img class="m-2" src="check-icon.svg"  alt="">Works on All Devices</li>
+                  <li> <img class="m-2" src="check-icon2.png" alt="">Unlimited Bandwitch</li>
+                  <li> <img class="m-2" src="check-icon2.png" alt="">Encrypted Connection</li>
+                  <li> <img class="m-2" src="check-icon2.png"  alt="">No Traffic Logs</li>
+                  <li> <img class="m-2" src="check-icon2.png"  alt="">Works on All Devices</li>
                 </ul>
                 </div>
                 <h3 class="text-center margin1">Free</h3>
@@ -146,8 +148,8 @@
             </div>
           </div>
           
-          <div class="col-md-4">
-            <div class="card pricing-card pricing-plan-basic">
+          <div class="col-md-4 section">
+            <div class="card pricing-card pricing-plan-basic mt-3">
               <div class="card-body">
                 <div class="d-flex justify-content-center w-100 mt-5">
                   <img src="free-plan.svg" alt="">
@@ -155,11 +157,11 @@
                 <h4 class="pricing-plan-cost ml-auto text-center m-5 ">Standard Plan</h4>
                 <div class="d-flex justify-content-center w-100 align-content-center">
                 <ul class="pricing-plan-features">
-                  <li> <img class="m-2" src="check-icon.svg">Unlimited Bandwitch</li>
-                  <li> <img class="m-2" src="check-icon.svg">Encrypted Connection</li>
-                  <li> <img class="m-2" src="check-icon.svg">Yes Traffic Logs</li>
-                  <li> <img class="m-2" src="check-icon.svg">Works on All Devices</li>
-                  <li> <img class="m-2" src="check-icon.svg">Connect Anywhere</li>
+                  <li> <img class="m-2" src="check-icon2.png">Unlimited Bandwitch</li>
+                  <li> <img class="m-2" src="check-icon2.png">Encrypted Connection</li>
+                  <li> <img class="m-2" src="check-icon2.png">Yes Traffic Logs</li>
+                  <li> <img class="m-2" src="check-icon2.png">Works on All Devices</li>
+                  <li> <img class="m-2" src="check-icon2.png">Connect Anywhere</li>
                 </ul>
                 </div>
                 <h3 class="text-center margin2">$9 / mo</h3>
@@ -170,8 +172,8 @@
             </div>
           </div>
 
-         <div class="col-md-4">
-            <div class="card pricing-card pricing-plan-basic">
+         <div class="col-md-4 section">
+            <div class="card pricing-card pricing-plan-basic mt-3">
               <div class="card-body">
                 <div class="d-flex justify-content-center w-100 mt-5">
                   <img src="free-plan.svg" alt="">
@@ -179,12 +181,12 @@
                 <h4 class="pricing-plan-cost ml-auto text-center m-5 ">Premium Plan</h4>
                 <div class="d-flex justify-content-center w-100 align-content-center">
                 <ul class="pricing-plan-features">
-                  <li><img class="m-2" src="check-icon.svg">Unlimited Bandwitch</li>
-                  <li><img class="m-2" src="check-icon.svg">Encrypted Connection</li>
-                  <li><img class="m-2" src="check-icon.svg">Yes Traffic Logs</li>
-                  <li><img class="m-2" src="check-icon.svg">Works on All Devices</li>
-                  <li><img class="m-2" src="check-icon.svg">Connect Anywhere</li>
-                  <li><img class="m-2" src="check-icon.svg">Get New Features</li>
+                  <li><img class="m-2" src="check-icon2.png">Unlimited Bandwitch</li>
+                  <li><img class="m-2" src="check-icon2.png">Encrypted Connection</li>
+                  <li><img class="m-2" src="check-icon2.png">Yes Traffic Logs</li>
+                  <li><img class="m-2" src="check-icon2.png">Works on All Devices</li>
+                  <li><img class="m-2" src="check-icon2.png">Connect Anywhere</li>
+                  <li><img class="m-2" src="check-icon2.png">Get New Features</li>
                 </ul>
                 </div>
                 <h3 class="text-center">$12 / mo</h3>
@@ -200,8 +202,8 @@
 
     </section>
 
-    <section>
-      <div class="container mt-5">
+    <section id="locationpage">
+      <div id="location" class=" container ">
         <div class="text">
       <h1 class="text-center pricing-table-title">Huge Global Network of <br> Fast VPN</h1>
       <h5 class="text-center pricing-table-subtitle mb-5 pb-5">See LaslesVPN everywhere to make it easier for you when you move locations.</h5>

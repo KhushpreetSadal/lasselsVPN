@@ -1,0 +1,46 @@
+#home{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home .width{
+
+    width: 75%;
+}
+#homepage .contents{
+    flex-direction: column;
+    
+    align-items: center;
+    width: 65%;
+}
+#homepage .contents .text{
+    margin-left: 0rem;
+    padding-right: 0rem;
+    border: none;
+}
+
+#homepage .contents .image{
+    width: 75%;
+
+    justify-content: space-between;
+}
+
+/* about */
+
+#about{
+    flex-direction: column;
+}
+
+/* # pricing page  */
+
+#pricing .column{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#pricing .column .section{
+    width: 75%;
+    margin-bottom: 3rem;
+}

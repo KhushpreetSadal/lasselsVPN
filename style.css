@@ -44,8 +44,10 @@
 
 
 /* #Home section */
-#content{
-    flex-wrap: wrap;
+
+
+#home .width{
+    width: 50%;
 }
 #home h1{
     font-size: 3rem;
@@ -75,6 +77,7 @@
 }
 
 #homepage .contents{
+
     box-shadow: #afafaf 0px 1px 100px -29px;
     padding: .9rem ;
     border-radius: 10px;
@@ -88,7 +91,10 @@
     border-right: #d3cdcd 2px solid;
 }
 
-
+#homepage .content .image{
+    justify-content: space-evenly;
+    align-items: center;
+}
 
 #homepage .contents .adjust{
     margin-left: 2rem;
@@ -126,25 +132,34 @@
 }
 #about .contents ul img{
     margin-right: .5rem;
+    width: 1.5rem;
 }
 
 
 /* #pricingpage */
 
 
-#about{
+#pricing{
     margin-top: 5rem;
 
 }
+#pricing h5{
+    color: #76787a;
 
-#about ul{
+}
+
+#pricing ul{
 list-style: none;
 margin-left: 0px;
 padding-left: 0px;
 
 }
+#pricing  ul img{
+    margin-right: .5rem;
+    width: 1.5rem;
+}
 
-#about .button{
+#pricing .button{
     background-color: #f53838;
     margin: 1rem auto;
     border: none;
@@ -156,15 +171,25 @@ padding-left: 0px;
     width: fit-content;
     box-shadow: #f53838 17px 13px 36px -12px;
 }
-#about .card-body{
+#pricing .card-body{
     height: 50rem;
   
 }
 
-#about .margin1{
+#pricing .margin1{
     margin-top: 5rem;
 }
-#about .margin2{
+#pricing .margin2{
     margin-top: 3rem;
     margin-bottom: 0rem;
+}
+
+/* #location page */
+
+#location{
+    margin-top: 8rem;
+}
+#location h5{
+    color: #76787a;
+
 }
