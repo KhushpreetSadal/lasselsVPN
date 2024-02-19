@@ -114,5 +114,57 @@
     margin-left: 5rem;
 }
 #about .contents ul{
-    list-style-image: url(check-icon.svg);
+    list-style: none;
+    margin-left: 0px;
+    padding: 0%;
+    line-height:3rem;
+    
+
+}
+#about .contents ul li{
+    color: #76787a;
+}
+#about .contents ul img{
+    margin-right: .5rem;
+}
+
+
+/* #pricingpage */
+
+
+#about{
+    margin-top: 5rem;
+
+}
+
+#about ul{
+list-style: none;
+margin-left: 0px;
+padding-left: 0px;
+
+}
+
+#about .button{
+    background-color: #f53838;
+    margin: 1rem auto;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 5rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+    width: fit-content;
+    box-shadow: #f53838 17px 13px 36px -12px;
+}
+#about .card-body{
+    height: 50rem;
+  
+}
+
+#about .margin1{
+    margin-top: 5rem;
+}
+#about .margin2{
+    margin-top: 3rem;
+    margin-bottom: 0rem;
 }
