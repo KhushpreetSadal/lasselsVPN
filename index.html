@@ -126,8 +126,8 @@
           happily and cheerfully.</h5>
 
         <div class="row column">
-          <div class="col-md-4 section">
-            <div class="card pricing-card pricing-plan-basic mt-3">
+          <div  class="col-md-4 section">
+            <div id="free" class="card pricing-card pricing-plan-basic mt-3">
               <div class="card-body">
                 <div class="d-flex justify-content-center w-100 mt-5">
                   <img src="free-plan.svg" alt="">
@@ -143,14 +143,14 @@
                 </div>
                 <h3 class="text-center margin1">Free</h3>
                 <div class="btn d-flex justify-content-center">
-                  <button class=" button ">Select</button>
+                  <button class="button" onclick="select(1)">Select</button>
                 </div>
               </div>
             </div>
           </div>
 
           <div class="col-md-4 section">
-            <div class="card pricing-card pricing-plan-basic mt-3">
+            <div  id="standard" class="card pricing-card pricing-plan-basic mt-3">
               <div class="card-body">
                 <div class="d-flex justify-content-center w-100 mt-5">
                   <img src="free-plan.svg" alt="">
@@ -167,14 +167,14 @@
                 </div>
                 <h3 class="text-center margin2">$9 / mo</h3>
                 <div class="btn d-flex justify-content-center">
-                  <button class=" button ">Select</button>
+                  <button class=" button " onclick="select(2)">Select</button>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-md-4 section">
-            <div class="card pricing-card pricing-plan-basic mt-3">
+          <div  class="col-md-4 section">
+            <div id="premium" class="card pricing-card pricing-plan-basic mt-3">
               <div class="card-body">
                 <div class="d-flex justify-content-center w-100 mt-5">
                   <img src="free-plan.svg" alt="">
@@ -192,7 +192,7 @@
                 </div>
                 <h3 class="text-center">$12 / mo</h3>
                 <div class="btn d-flex justify-content-center">
-                  <button class=" button ">Select</button>
+                  <button class=" button " onclick="select(3)">Select</button>
                 </div>
               </div>
             </div>
@@ -223,11 +223,11 @@
       </div>
     </section>
 
-    <section id="testimoniolspage">
-      <div id="testimoniols" class="container mt-5">
+    <section id="testimoniolspage ">
+      <div id="testimoniols" class="container mt-5 mb-5">
         <div class="content">
-          <h1 class="text-center pricing-table-title">Trusted by Thousands of Happy Customer</h1>
-          <h5 class="text-center pricing-table-subtitle mb-5 pb-5">These are the stories of our customers who have
+          <h1 class="text-center pricing-table-title">Trusted by Thousands of<br> Happy Customer</h1>
+          <h5 class="text-center pricing-table-subtitle mb-5 pb-5 mt-5">These are the stories of our customers who have
             joined us with great pleasure when using this crazy feature</h5>
         </div>
 
@@ -297,12 +297,24 @@
           
           
         </div>
-        <div class="btns">
-          <button onclick="previous()" class="button2 m-2"><img src="Arrow-red.png" alt=""></button>
-          <button onclick="next()" class="button1 m-2" ><img src="arrow-white.png" alt=""></button>
+        <div class="btns container d-flex justify-content-between mt-3">
+          <div class="left d-flex mx-3">
+            <button id="selector1" class="leftbtns" onclick="change(0)"></button>
+            <button id="selector2" class="leftbtns" onclick="change(1)"></button>
+            <button id="selector3" class="leftbtns" onclick="change(2)"></button>
+          </div>
+          <div class="right d-flex align-content-center justify-content-center">
+            <button onclick="previous()" class="button2 m-2"><img src="Arrow-red.png" alt=""></button>
+            <button onclick="next()" class="button1 m-2" ><img src="arrow-white.png" alt=""></button>
+          </div>
+        
         </div>
       </div>
 
+    </section>
+
+    <section id="helppage">
+<h1>asdfsaf</h1>
     </section>
   </main>
 

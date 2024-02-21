@@ -154,6 +154,9 @@ margin-left: 0px;
 padding-left: 0px;
 
 }
+#pricing .section{
+    transition: 1s ease-in all;
+}
 
 #pricing ul li{
     margin:.5rem;
@@ -163,18 +166,21 @@ padding-left: 0px;
     margin-right:2rem;
     width: 1rem;
 }
-
-#pricing .button{
-    background-color: #f53838;
-    margin: 1rem auto;
+#pricing .btn{
     border: none;
-    color: white;
-    border-radius: 10px;
+    outline: none;
+}
+#pricing .button{
+    background-color: white;
+    margin: 1rem auto;
+    border: 2px solid #f53838;
+    color: #f53838;
+    border-radius:10rem;
     padding: 1rem 5rem;
     font-size: 1.1rem;
     font-weight: 550;
     width: fit-content;
-    box-shadow: #f53838 17px 13px 36px -12px;
+
 }
 #pricing .card-body{
     height: 50rem;
@@ -213,6 +219,7 @@ padding-left: 0px;
 }
 
 /* #testimonials */
+
 #testimoniols .carousal{
     width: 80vw;
     margin: auto;
@@ -221,6 +228,9 @@ padding-left: 0px;
     overflow: hidden;
   
 
+}
+#testimoniols .content h5{
+    color: #76787a;
 }
 
 #testimoniols .section{
@@ -240,8 +250,8 @@ padding-left: 0px;
     justify-content: space-between;
 }
 #testimoniols .section .image{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 #testimoniols .btns{
     display: flex;
@@ -250,18 +260,39 @@ padding-left: 0px;
 
 }
 #testimoniols .btns img{
-    width: 4rem;
+    width: 2rem;
 }
+
+#testimoniols .btns .left{
+
+    justify-content: center;
+    align-items: center;
+}
+
+#testimoniols .btns .left .leftbtns{
+
+    height: 1rem;
+    width: 1rem;
+    margin: .2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: #dee0e0;
+}
+
 #testimoniols  .button1{
     background-color: #f53838;
     border: none;
     border-radius: 50%;
-    padding: .5rem .2rem;
+    padding: .5rem .4em;
 
 }
 #testimoniols  .button2{
     background-color: white;
     border: 2px solid #f53838 ;
     border-radius: 50%;
-    padding: .5rem 0.2em;
+    padding: .5rem 0.3em;
+}
+
+#helppage{
+    background-color: #f8f8f8;
 }
