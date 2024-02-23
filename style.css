@@ -1,9 +1,12 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 3rem;
+}
 *{
     margin: 0%;
     padding: 0%;
     font-family: "Rubik", sans-serif;
     scroll-behavior: smooth;
-   
     
 }
 
@@ -27,6 +30,7 @@
     color: #f53838;
     background-color: #ffffff;
     padding: 0.5vw 1rem;
+    transition: .2s all ease-in;
 
 }
 #btn2:hover{
@@ -35,11 +39,13 @@
 }
 .nav-link{
     color: grey;
-    
-   
+    font-size: 1.1rem;
+    transition: .2s all ease-in;
 }
+
 .nav-link:hover{
     color: #f53838;
+    
 }
 
 
@@ -60,6 +66,7 @@
 
 #home .button{
     background-color: #f53838;
+    text-decoration: none;
     border: none;
     color: white;
     border-radius: 10px;
@@ -68,6 +75,7 @@
     font-weight: 550;
     width: fit-content;
     box-shadow: #f53838 17px 13px 36px -12px;
+    transition: .2s all ease-in;
 }
 
 #home .button:hover{
@@ -180,8 +188,14 @@ padding-left: 0px;
     font-size: 1.1rem;
     font-weight: 550;
     width: fit-content;
+    transition: .2s all ease-in;
 
 }
+#pricing .button:hover{
+    color: white;
+    background-color: #f53838;
+}
+
 #pricing .card-body{
     height: 50rem;
   
@@ -213,7 +227,9 @@ padding-left: 0px;
 
 #location .sponsers img{
     width: 10rem;
+    transition: .2s all ease-in;
 }
+
 #location .sponsers img:hover{
     filter: brightness(-10%);
 }
@@ -223,7 +239,7 @@ padding-left: 0px;
 #testimoniols .carousal{
     width: 80vw;
     margin: auto;
-    height:20rem ;
+    height:22rem ;
     position: relative;
     overflow: hidden;
   
@@ -236,18 +252,28 @@ padding-left: 0px;
 #testimoniols .section{
     background-color: white;
     width: 40%;
-    height: 90%;
+    height: 95%;
     margin: 1rem;
     position: absolute;
     border: #76787a 2px solid;
     padding: 1rem 2rem;
     border-radius: 1rem;
     transition: .5s all ease-in;
+   
 }
 #testimoniols .section .users{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+#testimoniols #customer1{
+    left: 90%;
+}
+#testimoniols #customer2{
+    left: 45%;
+}
+#testimoniols #customer3{
+    left: 0%;
 }
 #testimoniols .section .image{
     width: 4rem;
@@ -293,6 +319,5 @@ padding-left: 0px;
     padding: .5rem 0.3em;
 }
 
-#helppage{
-    background-color: #f8f8f8;
-}
+
+

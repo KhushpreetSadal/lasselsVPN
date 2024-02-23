@@ -45,4 +45,32 @@ display: flex;
     margin-bottom: 3rem;
 }
 
-/* #location page */
+/* #testimonials page */
+#testimoniols .carousal{
+    height: 30rem;
+    text-align: center;
+}
+#testimoniols .section{
+    height: 95%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#testimoniols .section .users{
+    flex-direction: column;
+}
+#testimoniols #customer1{
+    left: 200%;
+}
+#testimoniols #customer2{
+    left: 100%;
+}
+#testimoniols #customer3{
+    left: 0%;
+}
+#testimoniols .section {
+    height: 95%;
+    width: 90%;
+}

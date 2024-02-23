@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>LaslesVPN</title>
+  <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
@@ -15,12 +16,12 @@
   <link rel="stylesheet" media="screen and (max-width: 991px)" href="phone.css">
 </head>
 
-<body>
+<body onresize="change(0)">
   <header>
     <nav class="navbar navbar-expand-lg d-flex justify-content-center p-3">
       <div class="container d-flex justify-content-between w-100 ">
         <div class="logo">
-          <a class="navbar-brand" href="#"><img src="logo.svg" alt="" srcset=""></a>
+          <a class="navbar-brand" href="#homepage"><img src="logo.svg" alt="" srcset=""></a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +30,16 @@
         <div class="collapse navbar-collapse w-100 " id="navbarSupportedContent">
           <ul class="navbar-nav w-100 d-flex justify-content-center ">
             <li class="nav-item m-3">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#aboutpage">About</a>
             </li>
             <li class="nav-item m-3">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#featurespage">Features</a>
             </li>
             <li class="nav-item m-3">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#pricingpage">Pricing</a>
             </li>
             <li class="nav-item m-3">
-              <a class="nav-link" href="#">Testimoniols</a>
+              <a class="nav-link" href="#testimoniols">Testimoniols</a>
             </li>
             <li class="nav-item m-3">
               <a class="nav-link" href="#">Help</a>
@@ -61,14 +62,14 @@
           <h1>Want anything to be easy with <span class="fw-bold">LaslesVPN</span>.</h1>
           <p class="mt-4">Provide a network for all your needs with ease and fun using <span
               class="fw-bold">LaslesVPN</span> discover interesting features from us.</p>
-          <button class="button mt-4 ">Get Started</button>
+          <a class="button mt-4 " href="#pricingpage">Get Started</a>
         </div>
         <div class="img ">
           <img class="w-100 h-100 mb-5" src="illustration-1.svg" alt="">
         </div>
       </div>
 
-      <div class="container d-flex justify-content-evenly contents">
+      <div id="aboutpage" class="container d-flex justify-content-evenly contents">
 
         <div class="d-flex image">
           <img src="location-icon.svg" alt="">
@@ -96,7 +97,7 @@
       </div>
     </section>
 
-    <section id="aboutpage">
+    <section id="featurespage">
       <div id="about" class="container mt-4 w-100 justify-content-center align-content-center d-flex">
 
         <div class="w-100 mt-5 mb-5">
@@ -104,7 +105,7 @@
         </div>
 
         <div class="d-flex flex-column justify-content-center contents mt-5 mb-5">
-          <h1 class="fw-bold">We Provide Many Features You Can Use</h1>
+          <h1 class="fw-bold" id="nav-about">We Provide Many Features You Can Use</h1>
           <p class="mt-4">You can explore the features that we provide with fun and have their own functions each
             feature.</p>
           <ul class="d-flex  flex-column">
@@ -312,11 +313,10 @@
       </div>
 
     </section>
-
-    <section id="helppage">
-<h1>asdfsaf</h1>
-    </section>
   </main>
+  <footer>
+
+  </footer>
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
