@@ -30,6 +30,11 @@
 #about{
     flex-direction: column;
 }
+#about .contents {
+    margin-left: 2rem;
+}
+
+
 
 /* # pricing page  */
 
