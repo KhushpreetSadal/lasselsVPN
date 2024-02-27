@@ -13,6 +13,7 @@ html{
 /* #Navbar css */
 .btns{
     width: 35%;
+    justify-content: flex-end;
 }
 
 #btn1{
@@ -258,7 +259,7 @@ padding-left: 0px;
     border: #76787a 2px solid;
     padding: 1rem 2rem;
     border-radius: 1rem;
-    transition: .5s all ease-in;
+    transition: .4s all ease-in;
    
 }
 #testimoniols .section .users{
@@ -319,5 +320,98 @@ padding-left: 0px;
     padding: .5rem 0.3em;
 }
 
+/* #subscribe  */
+#adjust{
+    background-color: white;
+    display:flex;
+    width: 80vw;
+    margin: auto;
+    z-index: 10;
+}
 
+#adjust #sub {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 42px -27px black;
+    padding: 3rem 5rem;
+    background-color: white;
+    margin-bottom: -7rem;
+    
+   
 
+}
+
+#sub .subscribe .button{
+    background-color: #f53838;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 5rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+    width: fit-content;
+    box-shadow: #f53838 17px 13px 36px -12px;
+    transition: .2s all ease-in;
+}
+#sub .subscribe .button:hover{
+    background-color: #2e3033;
+    box-shadow: #2e3033 17px 13px 36px -12px;
+ 
+}
+
+/* #footer page  */
+#footerpage{
+    width: 100vw;
+background-color: #f4f4f4;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#footer{
+    display: flex;
+    padding-top: 10rem;
+}
+#footer .left{
+    width: 35%;
+    margin: 5rem;
+}
+#footer .left .social{
+    margin: 2vw 0vw;
+}
+
+#footer .left .social .social-icon{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+#footer .left .social .social-icon img{
+
+    width: 50%;
+    height: 50%;
+}
+
+#footer .right{
+    display: flex;
+}
+#footer .right .center{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 2rem;
+}
+#footer .right .center a{
+    text-decoration: none;
+    color: #76787a;
+}
+#footer .right .center a:hover{
+    text-decoration: underline;
+}

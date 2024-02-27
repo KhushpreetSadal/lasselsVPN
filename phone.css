@@ -1,3 +1,19 @@
+/* #header */
+.btns{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+    #btn1{
+        width: 8rem;
+        padding: 1rem;
+    }
+    #btn2{
+        padding: 1rem;
+        width: 8rem;
+    }
+
+/* #home */
 #home{
     flex-direction: column;
     justify-content: center;
@@ -78,4 +94,24 @@ display: flex;
 #testimoniols .section {
     height: 95%;
     width: 90%;
+}
+
+/* #subscribe */
+
+#adjust #sub{
+    flex-direction: column;
+}
+/* #footer */
+
+#footer{
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+#footer .right{
+    justify-content: center;
+    width: 100%;
+}
+#footer .right .center{
+    margin: 5rem .5rem;
 }

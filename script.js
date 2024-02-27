@@ -30,10 +30,6 @@ let customer1 = document.getElementById("customer1");
 let customer2 = document.getElementById("customer2");
 let customer3 = document.getElementById("customer3");
 
-// customer1.style.left = `90%`;
-// customer2.style.left = `45%`;
-// customer3.style.left = `0%`;
-
 customer3.style.border = '2px solid #f53838'
 
 const next = () => {
