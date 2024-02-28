@@ -238,7 +238,7 @@ padding-left: 0px;
 /* #testimonials */
 
 #testimoniols .carousal{
-    width: 80vw;
+    width: auto;
     margin: auto;
     height:22rem ;
     position: relative;
