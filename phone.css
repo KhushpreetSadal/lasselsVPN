@@ -115,3 +115,16 @@ display: flex;
 #footer .right .center{
     margin: 5rem .5rem;
 }
+#footer .left .social .social-icon{
+    width: 5vw;
+    height: 5vw;
+}
+#footer .left .social .social-icon a{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vw;
+    width: 5vw;
+    padding: 0.3rem;
+} 
