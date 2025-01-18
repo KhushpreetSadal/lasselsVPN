@@ -1,4 +1,115 @@
+gsap.from('header', {
+
+  opacity: 0,
+  duration: 1,
+  delay: 1,
+  y: -25,
+  opacity: 0,
+  duration: 1,
+
+})
+
+
+
+gsap.from('#home .img ', {
+
+  opacity: 0,
+  duration: 1,
+  delay: 1,
+  x:20
+})
+gsap.from('#home .text', {
+
+  opacity: 0,
+  duration: 1,
+  delay: 1,
+  x:-20
+})
+
+gsap.from('#aboutpage ', {
+
+  opacity: 0,
+  duration: 1.5,
+  delay: 1,
+  scrollTrigger: {
+    trigger: '#aboutpage',
+    scroller: 'body',
+    start: 'top 85%'
+}
+})
+
+gsap.from('#featurespage ul li', {
+  y: 80,
+  opacity: 0,
+  duration: 1,
+  stagger: .3,
+  scrollTrigger: {
+      trigger: '#featurespage ul li',
+      scroller: 'body',
+      start: 'top 85%',
+
+  }
+
+})
+
+gsap.from('#featurespage .image img', {
+  y: 80,
+  opacity: 0,
+  duration: 1,
+  stagger: .3,
+  scrollTrigger: {
+      trigger: '#featurespage',
+      scroller: 'body',
+      start: 'top 85%'
+  }
+
+})
+gsap.from('#pricingpage li,#pricingpage img', {
+  y: 80,
+  opacity: 0,
+  duration: .75,
+  stagger: .2,
+  scrollTrigger: {
+      trigger: '#pricingpage',
+      scroller: 'body',
+      start: 'top 85%'
+  }
+
+})
+
+
+
+
+gsap.from('#locationpage', {
+  x: -20,
+  opacity: 0,
+  duration: 1,
+  stagger: .3,
+  scrollTrigger: {
+      trigger: '#locationpage img',
+      scroller: 'body',
+      start: 'top 80%'
+  }
+})
+
+gsap.from('.education .content .text', {
+  x: 200,
+  opacity: 0,
+  duration: 1,
+  stagger: .3,
+  scrollTrigger: {
+      trigger: '.education .content .img',
+      scroller: 'body',
+      start: 'top 80%'
+  }
+})
+
+
+
+
 // #pricing
+
+
 let premiumplan = document.getElementById('premium')
   premiumplan.style.border = "2px solid red"
 
